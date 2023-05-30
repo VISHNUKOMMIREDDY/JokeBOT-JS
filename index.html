@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Joke</title>
+
+    <style type="text/css">
+     
+     body{
+        background-color:yellow;
+     }
+     .heading{
+        color:rebeccapurple;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .jokecontent{
+      color:red;
+       text-align: center;
+        margin-top: 5px;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     
+     .joke{
+      color: darkblue;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     .button{
+    
+        height: 40px;
+        width: 70px;
+        background-color: aquamarine;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 1000px;
+        border: 3px solid green;
+     }
+     .button:hover{
+        background-color: cadetblue;
+        cursor: pointer;
+        border: 3px solid white;
+     }
+
+     div img{
+        margin-top:50px;
+        margin-left: 650px;
+     }
+     .heading1{
+        color:purple;
+        text-align: center;
+        font-size: 27px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+    </style>
+</head>
+<body>
+    
+    <div class="heading"><h1>Wanna here something funny?</h1></div>
+  
+    <div class="button" id="button">Yes</div>
+
+    <div class="jokecontent" id="jokecontent"></div>
+    <div class="joke" id="joke"> </div>
+
+    <div>
+        <img src="joke1.png" height="500px" width="800px" id="minion" class="minion">
+    </div>
+
+    <div class="heading1"><h2>Code Your own Job Generator 💜</h2></div>
+
+    <script src="joke.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
